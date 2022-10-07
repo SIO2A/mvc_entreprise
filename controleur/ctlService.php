@@ -51,6 +51,9 @@ switch($action){
 				include 'vue/vueService/v_listeServices.php'; 
 			break;
 
+			case 'test' :
+				break;
+
 				
 		}
 
