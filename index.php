@@ -20,11 +20,21 @@ if(isset($_GET['ctl']))
 
 			 case 'metier' :
 			  include 'controleur/ctlMetier.php';
-			  break;		 
+
+			  break;	
+
+			
+			  case 'utilisateur' :
+				include 'controleur/ctlUtilisateur.php';
+
+				break;	
 		}
-	
+
 }
+
+
 include 'vue/pied.php';
+
 
 ?>        				 
          
