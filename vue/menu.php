@@ -1,5 +1,9 @@
 <div class= "row bg-info">
-            
+<?php
+	if(isset($_SESSION['login']))
+	{
+?>
+
                	<div class ="col">
 				  <nav class="navbar navbar-expand-sm  justify-content-center p-0">
 					<!-- Links -->
@@ -21,11 +25,12 @@
 							<a class="dropdown-item" href="index.php?ctl=service&action=lister">Lister</a>
 							<a class="dropdown-item" href="index.php?ctl=service&action=formajouter">Ajouter</a>
 						</div>
-						</li>
-
-				   
+						</li>		   
 					</ul>
 				</nav>				
-			</div>				
+			</div>		
+		<?php
+		}
+		?>		
 			
 		</div>
